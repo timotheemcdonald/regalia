@@ -2,6 +2,8 @@
     font-family: "Barbie";
     src: url("./barbie.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,10 +12,37 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
-    background: #7315a2;
-    color: ivory;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    color:  #7315a2;
     font-family: "Barbie";
     font-size: 4rem;
-    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.25rem;
 }
