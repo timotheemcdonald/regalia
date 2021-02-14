@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Barbie";
+    src: url("./barbie.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #7315a2;
+    color: ivory;
+    font-family: "Barbie";
+    font-size: 4rem;
+    padding: 20px;
+}
